@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Soc-Dio/static/css/main.5f03c025.css",
+    "main.js": "/Soc-Dio/static/js/main.d19f6f27.js",
+    "static/media/gradient .jpg": "/Soc-Dio/static/media/gradient .c8163953a59370e07ed7.jpg",
+    "static/media/home-header.d7f6bc25.svg": "/Soc-Dio/static/media/home-header.d7f6bc25.9866c0108cd9e2d06e2b1d6e46e6a137.svg",
+    "index.html": "/Soc-Dio/index.html",
+    "main.5f03c025.css.map": "/Soc-Dio/static/css/main.5f03c025.css.map",
+    "main.d19f6f27.js.map": "/Soc-Dio/static/js/main.d19f6f27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f03c025.css",
+    "static/js/main.d19f6f27.js"
+  ]
+}
