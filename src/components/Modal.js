@@ -31,8 +31,8 @@ export default function Modal({ open, children, onClose }) {
         <div style={OVERLAY_STYLES}>
         <div className='grid grid-cols-2 justify-items-center py-5' style={MODAL_STYLES}>
             <p className='col-span-full'>{children}</p>
-            <button onClick={onClose}>Yes</button>
-            <button onClick={onClose}>No</button>
+            <button onClick={onClose} name="true" value={true}>Yes</button>
+            <button onClick={onClose} name="false" value={false}>No</button>
         </div>
         </div>
         </>,document.getElementById('portal'))
