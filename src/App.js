@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import GetStarted from './components/GetStarted';
@@ -9,17 +9,19 @@ import Support from './components/Support';
 function App() {
   return (
     <div>
-      <Routes>
-        <Route element=<Navbar/>>
-        
-            <Route path='/' element=<Support/>/>
-            <Route path='/support' element=<Support/>/>
-            <Route path='/home' element=<Home/>/>
-            <Route path='/getStarted' element=<GetStarted/>/>
+      <BrowserRouter basename="/Soc-Dio">
+        <Routes>
+          <Route element=<Navbar />>
 
-        </Route>
-      </Routes>
-      <Footer/>
+            <Route path='/' element=<Support /> />
+            <Route path='/support' element=<Support /> />
+            <Route path='/home' element=<Home /> />
+            <Route path='/getStarted' element=<GetStarted /> />
+
+          </Route>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
