@@ -24,6 +24,12 @@
     animation: bg-color ease-in-out 25s infinite;
 }
 
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
 @keyframes bg-color {
     0% {background-position-y: 0%;}
   25% {background-position-y: 25%;}
