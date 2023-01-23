@@ -12,10 +12,9 @@ function App() {
         <Routes>
           <Route element=<Navbar />>
 
-            <Route path='/' element=<Support /> />
+            <Route path='/' element=<Home/>/>
             <Route path='/home' element=<Home /> />
             <Route path='/getStarted' element=<GetStarted /> />
-
           </Route>
         </Routes>
         <Footer />
