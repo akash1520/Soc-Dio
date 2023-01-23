@@ -14,7 +14,6 @@ function App() {
           <Route element=<Navbar />>
 
             <Route path='/' element=<Support /> />
-            <Route path='/support' element=<Support /> />
             <Route path='/home' element=<Home /> />
             <Route path='/getStarted' element=<GetStarted /> />
 
