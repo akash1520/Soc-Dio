@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import GetStarted from './components/GetStarted';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Support from './components/Support';
 
 function App() {
   return (
